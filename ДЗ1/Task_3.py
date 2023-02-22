@@ -8,7 +8,7 @@
 # 123456 -> no
 
 tiсket = int(input('Введите шестизначный номер билета '))
-tiсket_1 = tiсket # Фиксирую число чтоб потом вывести в выводе 
+tiсket_1 = tiсket  # Фиксирую число чтоб потом вывести в выводе
 sum_1 = 0
 for i in range(3):
     tiсket_o = tiсket % 10
@@ -19,7 +19,7 @@ for i in range(3):
     tiсket_o = tiсket % 10
     sum_2 = sum_2 + tiсket_o
     tiсket = tiсket//10
-if sum_1 == sum_2 :
+if sum_1 == sum_2:
     print(f'Поздравляю ваш билет с № {tiсket_1}  СЧАСТЛИВЫЙ')
 else:
     print(f'Повезет в следующий раз. Билет с № {tiсket_1} не счастливый')
