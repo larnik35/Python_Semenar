@@ -8,8 +8,8 @@
 def degree(a, b):
     if b == 1:
         return a
-    if b != 1:
-        return (a * degree(a, b - 1))
+    else:
+        return a * degree(a, (b - 1))
 
 
 a = int(input('Введите число а '))
