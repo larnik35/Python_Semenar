@@ -6,7 +6,7 @@ def find(text):
         if text in lines[line] :
             print(lines[line])
 
-            data.close()
+    data.close()
     return
     print("Не найден!")
     data.close()
