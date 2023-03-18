@@ -4,6 +4,7 @@ from replacement_data import *
 from delete_data import *
 
 def menuHello():
+    print('\n')
     print("1.Добавить ")
     print("2.Вывести всех ")
     print("3.Поиск по фамилии ")
@@ -24,7 +25,7 @@ def menuHello():
         find_1(input("Введите фамилию данные о которой хотите изменить "))
         return True
     if userInput == 5:
-        find_2(input("Введите фамилию данные о которой хотите удолить  "))
+        find_2(input("Введите фамилию данные о которой хотите удалить  "))
         return True
     if userInput == 6:
         return False
